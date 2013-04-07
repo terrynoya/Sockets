@@ -88,17 +88,17 @@
 		233394460C3EEA6A008F3695 /* EventTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 233394440C3EEA6A008F3695 /* EventTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233394470C3EEA6A008F3695 /* EventTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233394450C3EEA6A008F3695 /* EventTime.cpp */; };
 		8AE6CFBC17116EBF00BC6275 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFB617116EBF00BC6275 /* Exception.cpp */; };
-		8AE6CFBD17116EBF00BC6275 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB717116EBF00BC6275 /* Exception.h */; };
+		8AE6CFBD17116EBF00BC6275 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB717116EBF00BC6275 /* Exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE6CFBE17116EBF00BC6275 /* SocketHandlerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFB817116EBF00BC6275 /* SocketHandlerThread.cpp */; };
-		8AE6CFBF17116EBF00BC6275 /* SocketHandlerThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB917116EBF00BC6275 /* SocketHandlerThread.h */; };
+		8AE6CFBF17116EBF00BC6275 /* SocketHandlerThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB917116EBF00BC6275 /* SocketHandlerThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE6CFC017116EBF00BC6275 /* SocketThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFBA17116EBF00BC6275 /* SocketThread.cpp */; };
-		8AE6CFC117116EBF00BC6275 /* SocketThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFBB17116EBF00BC6275 /* SocketThread.h */; };
+		8AE6CFC117116EBF00BC6275 /* SocketThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFBB17116EBF00BC6275 /* SocketThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE6CFC817116ED400BC6275 /* HttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC217116ED400BC6275 /* HttpRequest.cpp */; };
-		8AE6CFC917116ED400BC6275 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC317116ED400BC6275 /* HttpRequest.h */; };
+		8AE6CFC917116ED400BC6275 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC317116ED400BC6275 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE6CFCA17116ED400BC6275 /* HttpResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC417116ED400BC6275 /* HttpResponse.cpp */; };
-		8AE6CFCB17116ED400BC6275 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC517116ED400BC6275 /* HttpResponse.h */; };
+		8AE6CFCB17116ED400BC6275 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC517116ED400BC6275 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE6CFCC17116ED400BC6275 /* HttpTransaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC617116ED400BC6275 /* HttpTransaction.cpp */; };
-		8AE6CFCD17116ED400BC6275 /* HttpTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC717116ED400BC6275 /* HttpTransaction.h */; };
+		8AE6CFCD17116ED400BC6275 /* HttpTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC717116ED400BC6275 /* HttpTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
