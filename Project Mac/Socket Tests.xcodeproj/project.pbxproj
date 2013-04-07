@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232478DB0C3EF5B900D2D1CC /* C++Sockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232478DA0C3EF5A800D2D1CC /* C++Sockets.framework */; };
+		232478DC0C3EF5BD00D2D1CC /* C++Sockets.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 232478DA0C3EF5A800D2D1CC /* C++Sockets.framework */; };
+		232479070C3EF68900D2D1CC /* Read Me Mac Framework.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 232479060C3EF68900D2D1CC /* Read Me Mac Framework.rtf */; };
+		23FE93040C3EF1CD0067943C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; };
+		23FE93050C3EF1CD0067943C /* ClientSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B433B80C1776A0008C2FBF /* ClientSocket.cpp */; };
+		23FE93AA0C3EF1D40067943C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B435640C177A04008C2FBF /* CoreFoundation.framework */; };
+		23FE93AB0C3EF1D40067943C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B435650C177A04008C2FBF /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232478D90C3EF5A800D2D1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232478D50C3EF5A800D2D1CC /* Sockets.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2333933D0C3EE5BA008F3695;
+			remoteInfo = "C++Sockets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23FE93AD0C3EF1E50067943C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				232478DC0C3EF5BD00D2D1CC /* C++Sockets.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		232478D50C3EF5A800D2D1CC /* Sockets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sockets.xcodeproj; sourceTree = "<group>"; };
+		232479060C3EF68900D2D1CC /* Read Me Mac Framework.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me Mac Framework.rtf"; sourceTree = "<group>"; };
+		23B433B80C1776A0008C2FBF /* ClientSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ClientSocket.cpp; sourceTree = "<group>"; };
+		23B433CC0C1776E4008C2FBF /* ClientSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ClientSocket.h; sourceTree = "<group>"; };
+		23B435640C177A04008C2FBF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		23B435650C177A04008C2FBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		23FE92FE0C3EF1A40067943C /* Socket Reconnect Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Socket Reconnect Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FE93000C3EF1A40067943C /* Socket Reconnect Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Socket Reconnect Test-Info.plist"; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* Socket Tests.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Socket Tests.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FE92FC0C3EF1A40067943C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232478DB0C3EF5B900D2D1CC /* C++Sockets.framework in Frameworks */,
+				23FE93AA0C3EF1D40067943C /* CoreFoundation.framework in Frameworks */,
+				23FE93AB0C3EF1D40067943C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Socket Tests */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				23B4339E0C177559008C2FBF /* Library */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				23FE93000C3EF1A40067943C /* Socket Reconnect Test-Info.plist */,
+			);
+			name = "Socket Tests";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				23B433CC0C1776E4008C2FBF /* ClientSocket.h */,
+				23B433B80C1776A0008C2FBF /* ClientSocket.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FE92FE0C3EF1A40067943C /* Socket Reconnect Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232478D60C3EF5A800D2D1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232478DA0C3EF5A800D2D1CC /* C++Sockets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B4339E0C177559008C2FBF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				23B435640C177A04008C2FBF /* CoreFoundation.framework */,
+				23B435650C177A04008C2FBF /* Foundation.framework */,
+				232478D50C3EF5A800D2D1CC /* Sockets.xcodeproj */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Socket Tests.1 */,
+				232479060C3EF68900D2D1CC /* Read Me Mac Framework.rtf */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FE92FD0C3EF1A40067943C /* Socket Reconnect Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FE93010C3EF1A50067943C /* Build configuration list for PBXNativeTarget "Socket Reconnect Test" */;
+			buildPhases = (
+				23FE92FA0C3EF1A40067943C /* Resources */,
+				23FE92FB0C3EF1A40067943C /* Sources */,
+				23FE92FC0C3EF1A40067943C /* Frameworks */,
+				23FE93AD0C3EF1E50067943C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket Reconnect Test";
+			productName = "Socket Reconnect Test";
+			productReference = 23FE92FE0C3EF1A40067943C /* Socket Reconnect Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Socket Tests" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Socket Tests */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 232478D60C3EF5A800D2D1CC /* Products */;
+					ProjectRef = 232478D50C3EF5A800D2D1CC /* Sockets.xcodeproj */;
+				},
+			);
+			targets = (
+				23FE92FD0C3EF1A40067943C /* Socket Reconnect Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		232478DA0C3EF5A800D2D1CC /* C++Sockets.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "C++Sockets.framework";
+			remoteRef = 232478D90C3EF5A800D2D1CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FE92FA0C3EF1A40067943C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232479070C3EF68900D2D1CC /* Read Me Mac Framework.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FE92FB0C3EF1A40067943C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FE93040C3EF1CD0067943C /* main.cpp in Sources */,
+				23FE93050C3EF1CD0067943C /* ClientSocket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"$(OTHER_CFLAGS_QUOTED_1)",
+					"$(OTHER_CFLAGS_QUOTED_2)",
+					"-DMACOSX",
+					"-DSOCKETS_NAMESPACE=sockets",
+					"-D_THREADSAFE_SOCKETS",
+					"$(OTHER_CFLAGS_QUOTED_1)",
+				);
+				OTHER_CFLAGS_QUOTED_1 = "-D_VERSION='\"2.1.7\"'";
+				OTHER_CFLAGS_QUOTED_2 = "-DSOCKETS_NAMESPACE_STR='\"sockets\"'";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"$(OTHER_CFLAGS_QUOTED_1)",
+					"$(OTHER_CFLAGS_QUOTED_2)",
+					"-DMACOSX",
+					"-DSOCKETS_NAMESPACE=sockets",
+					"-D_THREADSAFE_SOCKETS",
+					"$(OTHER_CFLAGS_QUOTED_1)",
+				);
+				OTHER_CFLAGS_QUOTED_1 = "-D_VERSION='\"2.1.7\"'";
+				OTHER_CFLAGS_QUOTED_2 = "-DSOCKETS_NAMESPACE_STR='\"sockets\"'";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		23FE93020C3EF1A50067943C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/build/Release\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Socket Reconnect Test-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/build/Sockets.build/Release/C++Sockets.build/Objects-normal/i386\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/build/Sockets.build/Release/C++Sockets.build/Objects-normal/ppc\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Socket Reconnect Test";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		23FE93030C3EF1A50067943C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/build/Release\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Socket Reconnect Test-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/build/Sockets.build/Release/C++Sockets.build/Objects-normal/i386\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/build/Sockets.build/Release/C++Sockets.build/Objects-normal/ppc\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Socket Reconnect Test";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Socket Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FE93010C3EF1A50067943C /* Build configuration list for PBXNativeTarget "Socket Reconnect Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FE93020C3EF1A50067943C /* Debug */,
+				23FE93030C3EF1A50067943C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
