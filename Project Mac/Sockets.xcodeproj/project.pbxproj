@@ -29,7 +29,6 @@
 		233393740C3EE70D008F3695 /* MemFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728D80C175C1400B80C6E /* MemFile.cpp */; };
 		233393750C3EE70D008F3695 /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728D90C175C1400B80C6E /* Mutex.cpp */; };
 		233393760C3EE70D008F3695 /* Parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728C80C175C1400B80C6E /* Parse.cpp */; };
-		233393770C3EE70D008F3695 /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728FD0C175C1400B80C6E /* RandomNumber.cpp */; };
 		233393780C3EE70D008F3695 /* ResolvSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728FA0C175C1400B80C6E /* ResolvSocket.cpp */; };
 		233393790C3EE70D008F3695 /* ResolvServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239728B60C175C1400B80C6E /* ResolvServer.cpp */; };
 		2333937A0C3EE70D008F3695 /* Semaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B432E30C176E5F008C2FBF /* Semaphore.cpp */; };
@@ -69,7 +68,6 @@
 		2333939C0C3EE753008F3695 /* MemFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728D70C175C1400B80C6E /* MemFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2333939D0C3EE753008F3695 /* Mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728C90C175C1400B80C6E /* Mutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2333939E0C3EE753008F3695 /* Parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728C70C175C1400B80C6E /* Parse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2333939F0C3EE753008F3695 /* RandomNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728E50C175C1400B80C6E /* RandomNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233393A00C3EE753008F3695 /* ResolvSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728B40C175C1400B80C6E /* ResolvSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233393A10C3EE753008F3695 /* ResolvServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728E40C175C1400B80C6E /* ResolvServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233393A20C3EE753008F3695 /* Semaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B432E20C176E5F008C2FBF /* Semaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,15 +85,26 @@
 		233393AE0C3EE753008F3695 /* Thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728F00C175C1400B80C6E /* Thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233393AF0C3EE753008F3695 /* UdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728B10C175C1400B80C6E /* UdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233393B00C3EE753008F3695 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 239728DD0C175C1400B80C6E /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		233393B10C3EE7C1008F3695 /* uuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 239729530C175C6A00B80C6E /* uuid.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233394460C3EEA6A008F3695 /* EventTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 233394440C3EEA6A008F3695 /* EventTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233394470C3EEA6A008F3695 /* EventTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233394450C3EEA6A008F3695 /* EventTime.cpp */; };
+		8AE6CFBC17116EBF00BC6275 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFB617116EBF00BC6275 /* Exception.cpp */; };
+		8AE6CFBD17116EBF00BC6275 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB717116EBF00BC6275 /* Exception.h */; };
+		8AE6CFBE17116EBF00BC6275 /* SocketHandlerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFB817116EBF00BC6275 /* SocketHandlerThread.cpp */; };
+		8AE6CFBF17116EBF00BC6275 /* SocketHandlerThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFB917116EBF00BC6275 /* SocketHandlerThread.h */; };
+		8AE6CFC017116EBF00BC6275 /* SocketThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFBA17116EBF00BC6275 /* SocketThread.cpp */; };
+		8AE6CFC117116EBF00BC6275 /* SocketThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFBB17116EBF00BC6275 /* SocketThread.h */; };
+		8AE6CFC817116ED400BC6275 /* HttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC217116ED400BC6275 /* HttpRequest.cpp */; };
+		8AE6CFC917116ED400BC6275 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC317116ED400BC6275 /* HttpRequest.h */; };
+		8AE6CFCA17116ED400BC6275 /* HttpResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC417116ED400BC6275 /* HttpResponse.cpp */; };
+		8AE6CFCB17116ED400BC6275 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC517116ED400BC6275 /* HttpResponse.h */; };
+		8AE6CFCC17116ED400BC6275 /* HttpTransaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6CFC617116ED400BC6275 /* HttpTransaction.cpp */; };
+		8AE6CFCD17116ED400BC6275 /* HttpTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE6CFC717116ED400BC6275 /* HttpTransaction.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2324790F0C3EF69A00D2D1CC /* Read Me Mac Framework.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me Mac Framework.rtf"; sourceTree = "<group>"; };
 		2333933D0C3EE5BA008F3695 /* C++Sockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "C++Sockets.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2333933E0C3EE5BA008F3695 /* C++Sockets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "C++Sockets-Info.plist"; sourceTree = "<group>"; };
+		2333933E0C3EE5BA008F3695 /* C++Sockets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "C++Sockets-Info.plist"; sourceTree = "<group>"; };
 		233394440C3EEA6A008F3695 /* EventTime.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = EventTime.h; path = ../EventTime.h; sourceTree = SOURCE_ROOT; };
 		233394450C3EEA6A008F3695 /* EventTime.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = EventTime.cpp; path = ../EventTime.cpp; sourceTree = SOURCE_ROOT; };
 		239728AA0C175C1400B80C6E /* EventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = EventHandler.cpp; path = ../EventHandler.cpp; sourceTree = SOURCE_ROOT; };
@@ -152,7 +161,6 @@
 		239728E10C175C1400B80C6E /* SSLInitializer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SSLInitializer.cpp; path = ../SSLInitializer.cpp; sourceTree = SOURCE_ROOT; };
 		239728E20C175C1400B80C6E /* SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SocketAddress.h; path = ../SocketAddress.h; sourceTree = SOURCE_ROOT; };
 		239728E40C175C1400B80C6E /* ResolvServer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ResolvServer.h; path = ../ResolvServer.h; sourceTree = SOURCE_ROOT; };
-		239728E50C175C1400B80C6E /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RandomNumber.h; path = ../RandomNumber.h; sourceTree = SOURCE_ROOT; };
 		239728E60C175C1400B80C6E /* HTTPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HTTPSocket.cpp; path = ../HTTPSocket.cpp; sourceTree = SOURCE_ROOT; };
 		239728E70C175C1400B80C6E /* HttpPutSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = HttpPutSocket.h; path = ../HttpPutSocket.h; sourceTree = SOURCE_ROOT; };
 		239728E80C175C1400B80C6E /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Event.cpp; path = ../Event.cpp; sourceTree = SOURCE_ROOT; };
@@ -176,12 +184,22 @@
 		239728FA0C175C1400B80C6E /* ResolvSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ResolvSocket.cpp; path = ../ResolvSocket.cpp; sourceTree = SOURCE_ROOT; };
 		239728FB0C175C1400B80C6E /* ListenSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ListenSocket.h; path = ../ListenSocket.h; sourceTree = SOURCE_ROOT; };
 		239728FC0C175C1400B80C6E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = SOURCE_ROOT; };
-		239728FD0C175C1400B80C6E /* RandomNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = RandomNumber.cpp; path = ../RandomNumber.cpp; sourceTree = SOURCE_ROOT; };
 		239728FE0C175C1400B80C6E /* HttpDebugSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HttpDebugSocket.cpp; path = ../HttpDebugSocket.cpp; sourceTree = SOURCE_ROOT; };
-		239729530C175C6A00B80C6E /* uuid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = uuid.h; path = /Developer/SDKs/MacOSX10.4u.sdk/usr/include/uuid/uuid.h; sourceTree = "<absolute>"; };
 		23B432E20C176E5F008C2FBF /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Semaphore.h; path = ../Semaphore.h; sourceTree = SOURCE_ROOT; };
 		23B432E30C176E5F008C2FBF /* Semaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Semaphore.cpp; path = ../Semaphore.cpp; sourceTree = SOURCE_ROOT; };
 		32DBCF5E0370ADEE00C91783 /* Sockets_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sockets_Prefix.pch; sourceTree = "<group>"; };
+		8AE6CFB617116EBF00BC6275 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exception.cpp; path = ../Exception.cpp; sourceTree = "<group>"; };
+		8AE6CFB717116EBF00BC6275 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = ../Exception.h; sourceTree = "<group>"; };
+		8AE6CFB817116EBF00BC6275 /* SocketHandlerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SocketHandlerThread.cpp; path = ../SocketHandlerThread.cpp; sourceTree = "<group>"; };
+		8AE6CFB917116EBF00BC6275 /* SocketHandlerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketHandlerThread.h; path = ../SocketHandlerThread.h; sourceTree = "<group>"; };
+		8AE6CFBA17116EBF00BC6275 /* SocketThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SocketThread.cpp; path = ../SocketThread.cpp; sourceTree = "<group>"; };
+		8AE6CFBB17116EBF00BC6275 /* SocketThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketThread.h; path = ../SocketThread.h; sourceTree = "<group>"; };
+		8AE6CFC217116ED400BC6275 /* HttpRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HttpRequest.cpp; path = ../HttpRequest.cpp; sourceTree = "<group>"; };
+		8AE6CFC317116ED400BC6275 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = ../HttpRequest.h; sourceTree = "<group>"; };
+		8AE6CFC417116ED400BC6275 /* HttpResponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HttpResponse.cpp; path = ../HttpResponse.cpp; sourceTree = "<group>"; };
+		8AE6CFC517116ED400BC6275 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = ../HttpResponse.h; sourceTree = "<group>"; };
+		8AE6CFC617116ED400BC6275 /* HttpTransaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HttpTransaction.cpp; path = ../HttpTransaction.cpp; sourceTree = "<group>"; };
+		8AE6CFC717116ED400BC6275 /* HttpTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpTransaction.h; path = ../HttpTransaction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +246,12 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8AE6CFB617116EBF00BC6275 /* Exception.cpp */,
+				8AE6CFB717116EBF00BC6275 /* Exception.h */,
+				8AE6CFB817116EBF00BC6275 /* SocketHandlerThread.cpp */,
+				8AE6CFB917116EBF00BC6275 /* SocketHandlerThread.h */,
+				8AE6CFBA17116EBF00BC6275 /* SocketThread.cpp */,
+				8AE6CFBB17116EBF00BC6275 /* SocketThread.h */,
 				239728DB0C175C1400B80C6E /* Base64.cpp */,
 				239728EE0C175C1400B80C6E /* Base64.h */,
 				239728D60C175C1400B80C6E /* Debug.cpp */,
@@ -259,8 +283,6 @@
 				239728C90C175C1400B80C6E /* Mutex.h */,
 				239728C80C175C1400B80C6E /* Parse.cpp */,
 				239728C70C175C1400B80C6E /* Parse.h */,
-				239728FD0C175C1400B80C6E /* RandomNumber.cpp */,
-				239728E50C175C1400B80C6E /* RandomNumber.h */,
 				239728FA0C175C1400B80C6E /* ResolvSocket.cpp */,
 				239728B40C175C1400B80C6E /* ResolvSocket.h */,
 				239728B60C175C1400B80C6E /* ResolvServer.cpp */,
@@ -315,6 +337,12 @@
 		23B436E70C178245008C2FBF /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				8AE6CFC217116ED400BC6275 /* HttpRequest.cpp */,
+				8AE6CFC317116ED400BC6275 /* HttpRequest.h */,
+				8AE6CFC417116ED400BC6275 /* HttpResponse.cpp */,
+				8AE6CFC517116ED400BC6275 /* HttpResponse.h */,
+				8AE6CFC617116ED400BC6275 /* HttpTransaction.cpp */,
+				8AE6CFC717116ED400BC6275 /* HttpTransaction.h */,
 				239728E60C175C1400B80C6E /* HTTPSocket.cpp */,
 				239728D20C175C1400B80C6E /* HTTPSocket.h */,
 				239728D50C175C1400B80C6E /* HttpdSocket.cpp */,
@@ -349,7 +377,6 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				239729530C175C6A00B80C6E /* uuid.h */,
 				32DBCF5E0370ADEE00C91783 /* Sockets_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -388,7 +415,6 @@
 				2333939C0C3EE753008F3695 /* MemFile.h in Headers */,
 				2333939D0C3EE753008F3695 /* Mutex.h in Headers */,
 				2333939E0C3EE753008F3695 /* Parse.h in Headers */,
-				2333939F0C3EE753008F3695 /* RandomNumber.h in Headers */,
 				233393A00C3EE753008F3695 /* ResolvSocket.h in Headers */,
 				233393A10C3EE753008F3695 /* ResolvServer.h in Headers */,
 				233393A20C3EE753008F3695 /* Semaphore.h in Headers */,
@@ -406,7 +432,12 @@
 				233393AE0C3EE753008F3695 /* Thread.h in Headers */,
 				233393AF0C3EE753008F3695 /* UdpSocket.h in Headers */,
 				233393B00C3EE753008F3695 /* Utility.h in Headers */,
-				233393B10C3EE7C1008F3695 /* uuid.h in Headers */,
+				8AE6CFBD17116EBF00BC6275 /* Exception.h in Headers */,
+				8AE6CFBF17116EBF00BC6275 /* SocketHandlerThread.h in Headers */,
+				8AE6CFC117116EBF00BC6275 /* SocketThread.h in Headers */,
+				8AE6CFC917116ED400BC6275 /* HttpRequest.h in Headers */,
+				8AE6CFCB17116ED400BC6275 /* HttpResponse.h in Headers */,
+				8AE6CFCD17116ED400BC6275 /* HttpTransaction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +468,16 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Sockets" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Sockets */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				2333933C0C3EE5BA008F3695 /* C++Sockets */,
 			);
@@ -485,7 +522,6 @@
 				233393740C3EE70D008F3695 /* MemFile.cpp in Sources */,
 				233393750C3EE70D008F3695 /* Mutex.cpp in Sources */,
 				233393760C3EE70D008F3695 /* Parse.cpp in Sources */,
-				233393770C3EE70D008F3695 /* RandomNumber.cpp in Sources */,
 				233393780C3EE70D008F3695 /* ResolvSocket.cpp in Sources */,
 				233393790C3EE70D008F3695 /* ResolvServer.cpp in Sources */,
 				2333937A0C3EE70D008F3695 /* Semaphore.cpp in Sources */,
@@ -500,6 +536,12 @@
 				233393830C3EE70D008F3695 /* Thread.cpp in Sources */,
 				233393840C3EE70D008F3695 /* UdpSocket.cpp in Sources */,
 				233393850C3EE70D008F3695 /* Utility.cpp in Sources */,
+				8AE6CFBC17116EBF00BC6275 /* Exception.cpp in Sources */,
+				8AE6CFBE17116EBF00BC6275 /* SocketHandlerThread.cpp in Sources */,
+				8AE6CFC017116EBF00BC6275 /* SocketThread.cpp in Sources */,
+				8AE6CFC817116ED400BC6275 /* HttpRequest.cpp in Sources */,
+				8AE6CFCA17116ED400BC6275 /* HttpResponse.cpp in Sources */,
+				8AE6CFCC17116ED400BC6275 /* HttpTransaction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +601,8 @@
 		233393400C3EE5BA008F3695 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -578,6 +622,7 @@
 				);
 				PREBINDING = YES;
 				PRODUCT_NAME = "C++Sockets";
+				SDKROOT = "";
 				ZERO_LINK = NO;
 			};
 			name = Debug;
@@ -585,6 +630,8 @@
 		233393410C3EE5BA008F3695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -602,6 +649,7 @@
 				);
 				PREBINDING = YES;
 				PRODUCT_NAME = "C++Sockets";
+				SDKROOT = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;
