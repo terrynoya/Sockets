@@ -33,7 +33,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "socket_include.h"
 
 // only to be included in win32 projects
-const char *StrError(int x) 
+const char *StrError1(int x)
 {
 static	char tmp[100];
 	switch (x)

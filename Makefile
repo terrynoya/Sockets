@@ -5,7 +5,7 @@
 #  solaris9-sparc-64
 #  macosx
 #  solaris8
-PLATFORM =	linux-x86-32
+PLATFORM =	macosx
 
 # 'Makefile.version' defines the $(VERSION) of the library, and also
 # setup the OBJS variable - stuff to be compiled.

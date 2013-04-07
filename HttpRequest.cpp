@@ -62,7 +62,7 @@ HttpRequest::HttpRequest() : HttpTransaction()
 
 
 // --------------------------------------------------------------------------------------
-#ifndef _WIN32
+#if !defined(_WIN32) && !defined(MACOSX)
 HttpRequest::HttpRequest(FILE *fil) : HttpTransaction()
 , m_server_port(0)
 , m_is_ssl(false)
